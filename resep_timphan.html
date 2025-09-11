@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resep Timphan — Kue Tradisional Aceh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#2b8a86;--muted:#6b7280;--bg:#f7fafc}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;margin:0;background:var(--bg);color:#0f172a}
+    .container{max-width:880px;margin:32px auto;padding:24px;background:white;border-radius:12px;box-shadow:0 8px 24px rgba(15,23,42,0.06)}
+    header{display:flex;gap:16px;align-items:center}
+    .badge{background:var(--accent);color:white;padding:6px 10px;border-radius:8px;font-weight:600}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{color:var(--muted);margin:6px 0 18px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:22px}
+    @media (max-width:820px){.grid{grid-template-columns:1fr}}
+    .card{background:#fcfeff;border:1px solid #eef2f4;padding:16px;border-radius:10px}
+    ul{padding-left:1.1rem}
+    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+    .section-title h2{margin:0;font-size:1.05rem}
+    .steps ol{padding-left:1.1rem}
+    .note{font-size:0.95rem;color:var(--muted);margin-top:8px}
+    .btns{display:flex;gap:8px}
+    button{background:var(--accent);color:white;padding:8px 12px;border-radius:8px;border:0;cursor:pointer}
+    button.secondary{background:#e6eef0;color:var(--accent);border:1px solid #cfe7e6}
+    footer{margin-top:18px;color:var(--muted);font-size:0.9rem;text-align:center}
+    .ingredients li{margin-bottom:6px}
+    .tips li{margin-bottom:6px}
+    .wrapper-img{height:160px;background:linear-gradient(135deg, #f0fdfa, #e6f9f8);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:600}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px;font-size:0.9rem}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="badge">Aceh • Kue Tradisional</div>
+      <div>
+        <h1>Timphan</h1>
+        <p class="lead">Kue ketan isi srikaya yang dibungkus daun pisang — harum, lembut, dan manis. Resep praktis untuk dicoba di rumah.</p>
+      </div>
+    </header>
+
+    <div class="grid" style="margin-top:18px">
+      <section>
+        <div class="card">
+          <div class="section-title">
+            <h2>Bahan Kulit</h2>
+            <div class="note">Porsi: 20–24 kue</div>
+          </div>
+          <ul class="ingredients">
+            <li>500 g tepung ketan</li>
+            <li>200 ml santan kental (hangat)</li>
+            <li>2 sdm minyak goreng</li>
+            <li>½ sdt garam</li>
+            <li>Daun pisang muda, layur agar lentur</li>
+          </ul>
+
+          <div style="height:10px"></div>
+
+          <div class="section-title">
+            <h2>Bahan Isi (Srikaya)</h2>
+            <div class="note">Bahan isian tradisional</div>
+          </div>
+          <ul class="ingredients">
+            <li>4 butir telur</li>
+            <li>200 g gula pasir</li>
+            <li>200 ml santan kental</li>
+            <li>½ sdt vanili bubuk</li>
+            <li>Sejumput garam</li>
+          </ul>
+
+          <hr style="margin:14px 0;border:none;border-top:1px dashed #e6eef0">
+
+          <div class="section-title">
+            <h2>Cara Membuat (Ringkas)</h2>
+            <div class="note">Estimasi waktu: 60–90 menit</div>
+          </div>
+
+          <div class="steps">
+            <ol>
+              <li><strong>Membuat isian srikaya:</strong> Kocok telur dan gula sampai gula larut. Tambahkan santan, vanili, dan garam. Masak di api kecil sambil terus diaduk sampai mengental. Dinginkan.</li>
+              <li><strong>Membuat kulit:</strong> Campur tepung ketan, santan hangat, minyak, dan garam. Uleni sampai kalis dan bisa dipulung.</li>
+              <li><strong>Membungkus:</strong> Ambil sejumput adonan kulit, pipihkan di daun pisang, beri 1 sdt isian, lalu lipat dan gulung rapat.</li>
+              <li><strong>Mengukus:</strong> Susun timphan di kukusan dan kukus 20–30 menit sampai matang. Angkat dan dinginkan.</li>
+            </ol>
+          </div>
+
+          <p class="note">Variasi isi: kelapa parut manis, pisang, atau kacang.</p>
+
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <div class="wrapper-img">Foto Timphan (placeholder)</div>
+
+          <div style="margin-top:12px">
+            <div class="section-title"><h2>Tips & Trik</h2></div>
+            <ul class="tips">
+              <li>Gunakan daun pisang muda agar wangi dan mudah dilipat.</li>
+              <li>Santan hangat membantu adonan kulit jadi lebih lentur.</li>
+              <li>Jaga api kecil saat memasak srikaya agar tidak pecah.</li>
+              <li>Beri sedikit minyak pada daun pisang agar mudah dilepas.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:12px" class="section-title"><h2>Buttons</h2><div class="btns"></div></div>
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <button onclick="window.print()">Cetak Resep</button>
+            <button class="secondary" onclick="downloadHTML()">Download .html</button>
+          </div>
+
+          <script>
+            function downloadHTML(){
+              const content = document.documentElement.outerHTML;
+              const blob = new Blob([content], {type: 'text/html'});
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url; a.download = 'timphan_recipe.html';
+              document.body.appendChild(a); a.click(); a.remove();
+              URL.revokeObjectURL(url);
+            }
+          </script>
+
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="card">
+          <h3 style="margin-top:0">Catatan Nutrisi (perkiraan)</h3>
+          <p class="note">Kue tradisional ini relatif tinggi karbohidrat dan lemak karena tepung ketan dan santan. Nikmati secukupnya.</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      &copy; Resep Timphan — dibuat untuk demonstrasi. Selamat mencoba!
+    </footer>
+  </main>
+</body>
+</html>
