@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resep Keumamah — Masakan Tradisional Aceh</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#78350f;--muted:#6b7280;--bg:#fefcf9}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;margin:0;background:var(--bg);color:#0f172a}
+    .container{max-width:880px;margin:32px auto;padding:24px;background:white;border-radius:12px;box-shadow:0 8px 24px rgba(15,23,42,0.06)}
+    header{display:flex;gap:16px;align-items:center}
+    .badge{background:var(--accent);color:white;padding:6px 10px;border-radius:8px;font-weight:600}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{color:var(--muted);margin:6px 0 18px}
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:22px}
+    @media (max-width:820px){.grid{grid-template-columns:1fr}}
+    .card{background:#fffdfc;border:1px solid #f1e9e1;padding:16px;border-radius:10px}
+    ul{padding-left:1.1rem}
+    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+    .section-title h2{margin:0;font-size:1.05rem}
+    .steps ol{padding-left:1.1rem}
+    .note{font-size:0.95rem;color:var(--muted);margin-top:8px}
+    .btns{display:flex;gap:8px}
+    button{background:var(--accent);color:white;padding:8px 12px;border-radius:8px;border:0;cursor:pointer}
+    button.secondary{background:#f8f3ed;color:var(--accent);border:1px solid #e2c8aa}
+    footer{margin-top:18px;color:var(--muted);font-size:0.9rem;text-align:center}
+    .ingredients li{margin-bottom:6px}
+    .tips li{margin-bottom:6px}
+    .wrapper-img{height:160px;background:linear-gradient(135deg, #fef3c7, #fde68a);border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:600}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px;font-size:0.9rem}
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="badge">Aceh • Masakan Tradisional</div>
+      <div>
+        <h1>Keumamah</h1>
+        <p class="lead">Masakan khas Aceh berbahan dasar ikan kayu (ikan tongkol yang direbus, diasap, lalu dikeringkan). Rasanya gurih, sedikit pedas, dan aromanya khas.</p>
+      </div>
+    </header>
+
+    <div class="grid" style="margin-top:18px">
+      <section>
+        <div class="card">
+          <div class="section-title">
+            <h2>Bahan Utama</h2>
+            <div class="note">Porsi: 4–5 orang</div>
+          </div>
+          <ul class="ingredients">
+            <li>200 g keumamah (ikan kayu), iris tipis-tipis</li>
+            <li>4 sdm minyak goreng</li>
+            <li>600 ml santan encer</li>
+            <li>2 batang serai, memarkan</li>
+            <li>3 lembar daun jeruk</li>
+            <li>2 lembar daun salam</li>
+            <li>Garam dan gula secukupnya</li>
+          </ul>
+
+          <div style="height:10px"></div>
+
+          <div class="section-title">
+            <h2>Bumbu Halus</h2>
+            <div class="note">Diulek/blender hingga halus</div>
+          </div>
+          <ul class="ingredients">
+            <li>6 siung bawang merah</li>
+            <li>4 siung bawang putih</li>
+            <li>10 buah cabai merah keriting</li>
+            <li>5 buah cabai rawit (opsional, sesuai selera)</li>
+            <li>2 cm kunyit</li>
+            <li>2 cm jahe</li>
+            <li>1 sdt ketumbar sangrai</li>
+          </ul>
+
+          <hr style="margin:14px 0;border:none;border-top:1px dashed #e6d7c0">
+
+          <div class="section-title">
+            <h2>Cara Membuat</h2>
+            <div class="note">Estimasi waktu: ±60 menit</div>
+          </div>
+
+          <div class="steps">
+            <ol>
+              <li>Haluskan semua bumbu, lalu tumis dengan minyak sampai harum.</li>
+              <li>Masukkan serai, daun jeruk, dan daun salam, aduk rata.</li>
+              <li>Tambahkan santan encer, masak dengan api sedang hingga mendidih.</li>
+              <li>Masukkan irisan keumamah, aduk perlahan agar tidak hancur.</li>
+              <li>Bumbui dengan garam dan gula secukupnya, masak hingga kuah menyusut dan bumbu meresap.</li>
+              <li>Sajikan hangat bersama nasi putih.</li>
+            </ol>
+          </div>
+
+          <p class="note">Keumamah biasanya disimpan lama karena awet. Sebelum dimasak, rendam irisan ikan kayu dalam air hangat 10–15 menit agar teksturnya lebih empuk.</p>
+
+        </div>
+      </section>
+
+      <aside>
+        <div class="card">
+          <div class="wrapper-img">Foto Keumamah (placeholder)</div>
+
+          <div style="margin-top:12px">
+            <div class="section-title"><h2>Tips & Trik</h2></div>
+            <ul class="tips">
+              <li>Rendam keumamah sebelum dimasak agar tidak terlalu keras.</li>
+              <li>Gunakan santan encer supaya kuah tidak terlalu kental.</li>
+              <li>Bisa ditambah kentang atau nangka muda untuk variasi.</li>
+              <li>Simpan keumamah di wadah kering agar tahan lama.</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:12px" class="section-title"><h2>Aksi</h2></div>
+          <div style="display:flex;gap:8px;margin-top:8px">
+            <button onclick="window.print()">Cetak Resep</button>
+            <button class="secondary" onclick="downloadHTML()">Download .html</button>
+          </div>
+
+          <script>
+            function downloadHTML(){
+              const content = document.documentElement.outerHTML;
+              const blob = new Blob([content], {type: 'text/html'});
+              const url = URL.createObjectURL(blob);
+              const a = document.createElement('a');
+              a.href = url; a.download = 'keumamah_recipe.html';
+              document.body.appendChild(a); a.click(); a.remove();
+              URL.revokeObjectURL(url);
+            }
+          </script>
+        </div>
+
+        <div style="height:14px"></div>
+
+        <div class="card">
+          <h3 style="margin-top:0">Catatan Nutrisi (perkiraan)</h3>
+          <p class="note">Keumamah tinggi protein dari ikan tongkol kering, namun rendah lemak karena proses pengeringan. Santan menambah kalori, jadi konsumsi secukupnya.</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      &copy; Resep Keumamah — dibuat untuk demonstrasi. Selamat mencoba!
+    </footer>
+  </main>
+</body>
+</html>
